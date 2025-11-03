@@ -1,0 +1,20 @@
+{
+  "name": "challenge-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node services/index.js",
+    "lint": "eslint . --ext .js",
+    "test": "jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "msw": "^2.7.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
